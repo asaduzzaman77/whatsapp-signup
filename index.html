@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whatsapp signup</title>
+    <link rel="stylesheet" href="./wtsapp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="./img/download 3.png" alt="" />
+        <div class="text">
+          <h4>WhatsApp</h4>
+        </div>
+      </nav>
+      <div class="auth">
+        <h3>create a new account</h3>
+        <form id="form">
+          <label for="ccode">Phone</label><br><br>
+          <select name="ccode" id="ccode">
+            <option value="">+091</option>
+            <option value="">+880</option>
+            <option value="">+099</option>
+          </select>
+          <input type="number" name="ccode" id="ccode" class="num" required/>
+          <hr>
+
+          <br>
+          <label for="mail">Email Address</label>
+          <input type="email" name="mail" id="mail"  class="mail" required>
+          <br><br>
+          <label for="pass">Password</label>
+          <input type="password" name="pass" id="pass" class="pass" required>
+          <button><a href="#">Sign Up</a></button>
+        </form>
+      </div>
+      <p class="text">----- or signup with -----</p>
+
+      <div class="font">
+        <i class="fa-brands fa-facebook fa-2x"></i>
+        <i class="fa-brands fa-twitter fa-2x"></i>
+        <i class="fa-brands fa-square-instagram fa-2x"></i>
+        <i class="fa-brands fa-google fa-2x"></i>
+      </div>
+      <p class="acc">Already have an account? <span><a href="#">Login Here</a></span></p>
+    </div>
+  </body>
+</html>

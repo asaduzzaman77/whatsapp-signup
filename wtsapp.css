@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 300px;
+    max-height: 800px;
+    margin: auto;
+   
+}
+ nav{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: #1BD741;
+    padding-top: 70px;
+ }
+ nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ }
+ nav .text{
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+ }
+ .auth h3{
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #216F67;
+ }
+
+#form{
+    padding: 20px;
+}
+  select , input{
+    border: none;
+    padding-bottom: 10px;
+    color: #216F67;
+  }
+  .num{
+    box-sizing: border-box;
+  }
+
+ label{
+   margin: 10px;
+    color: #216F67;
+ }
+ .mail{
+    width: 100%;
+    border-bottom: 1px solid #216F67;
+ }
+ .pass{
+    width: 100%;
+    border-bottom: 1px solid #216F67;
+ }
+
+ button{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #1BD741;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+ }
+ button a{
+    text-decoration: none;
+    color: white;
+ }
+ button:hover{
+    background-color: #33f45a;
+ }
+.text{
+    text-align: center;
+    padding: 20px;
+}
+ .font{
+    text-align: center;
+
+ }
+.fa-facebook, .fa-twitter, .fa-square-instagram, .fa-google{
+    padding-right: 10px;
+    cursor: pointer;
+     
+}
+.fa-facebook{
+    color: #3B5998;
+}
+.fa-twitter{
+    color: #24A4F2;
+}
+.fa-square-instagram{
+    color: #E1306C;
+}
+.fa-google{
+    color: #FF3D00;
+}
+.acc{
+    padding:20px ;
+    text-align: center;
+    color: #237068;
+}
+.acc span a{
+    text-decoration: none;
+    color: #075E55;
+    font-weight: boldy;
+}
